@@ -47,3 +47,13 @@ end
 # Stuff para css/javascript
   gem 'therubyracer'
   gem 'execjs'
+
+  # Test con rspec
+  gem "rspec-rails", :group => [:test, :development]
+  group :test do
+    gem "factory_girl_rails"
+    gem 'cucumber-rails', :require => false
+    gem 'database_cleaner'
+    # gem "capybara"
+    gem "guard-rspec"
+  end
