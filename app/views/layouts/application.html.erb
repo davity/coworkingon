@@ -1,10 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Coworkingon</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+
+
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="http://www.coworkingon.com/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon">
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CoworkingON, Coworking a la hora o al día</title>
+    
+      <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+  <!-- ### Stylesheet ### -->
+<!--   <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+ -->
+  <%= stylesheet_link_tag "style", media: "all" %>
+  
+  <!-- ### Google Fonts ### -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+
+  <!--[if IE 7]>
+  <style type="text/css" media="all">
+  ul.menu li {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  }
+  </style>
+  <![endif]-->
+
+  <!--[if lt IE 7]>
+  <style type="text/css" media="all">
+  .inner {
+  word-wrap:break-word;
+  }
+  .header .inner {
+  zoom: 1;
+  }
+  </style>
+  <![endif]-->
+
 </head>
 <body>
   <p class="notice"><%= notice %></p>

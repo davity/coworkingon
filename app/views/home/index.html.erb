@@ -1,0 +1,467 @@
+<!--Start of header-->
+
+<div class="header">
+<div class="inner">
+<h1><a href="index.html"><img src="images/logo.png" alt="CoworkingON, Coworking a la hora o al día" width="189" height="39" class="logo"></a></h1>
+
+
+<div class="membuttons">
+  <% if current_user %>  
+    Logged in as <%= current_user.email %>  
+    <%= link_to "sign out", destroy_user_session_path, method: :delete, class: "cbutton" %>
+  <% else %>  
+    <%= link_to "Registrarse", new_user_registration_path, { class: "cbutton" } %> or   
+    <%= link_to "Login", new_user_session_path, { class: "cbutton"} %>  
+  <% end %>
+<!-- <a href="" class="cbutton">Login</a>
+<a href="#" class="cbutton">Dar de alta tu Espacio</a> -->
+</div>
+</div>
+</div>
+
+<!--End of header-->
+
+
+<!--Start of top navigation-->
+<div class="inner">
+<nav class="mainnav">
+<div class="nav">
+<ul class="menu"><li><a href="que_es_coworking.html">¿Que es Coworkingon?</a></li><li ><a href="bonos_por_horas.html">Bonos Por horas</a></li><li><a href="alquiler_de_salas.html">Alquiler de salas</a></li>
+</ul>
+</div>
+</nav>
+</div>
+
+<!--End of top navigation-->
+
+<!--Start of homepage slide-->
+<div class="homeslider">
+<img src="images/home-slide1.jpg" width="1260"
+ height="333" alt="home slide1" />
+ </div>
+<!--End of homepage slide-->
+
+<!--Start of main content -->
+
+<div class="inner content">
+<!--Start of primary content-->
+<div class="primary">
+
+<!--Start of boxes hovering over homepage slider-->
+
+<div class="searchbox box1">
+<h4>comprar bonos por horas</h4>
+<p>Compra bonos con un número de horas pre-cargadas para mayo flexibilidad y control del gasto, en los Mejores Espacios de Coworking</p>
+
+<a href="#" class="bluebutton">Ver más</a>
+</div>
+
+  <div class="searchbox box2">
+<h4>reservar Salas de Reuniones</h4>
+<p>Reserva salas para una Reunión importante con clientes, un Curso de Formación o un Evento. Las mejores salas al mejor precio.</p>
+
+<a href="#" class="bluebutton">Ver más</a>
+</div>
+  
+ <!--End of boxes hovering over homepage slider--> 
+    
+<!--Start of  testimonials with three collumn layout -->
+<div class="threecolumn testimonials">
+
+<!--Start of wide "wthird" division -->
+<div class="wthird">
+
+
+<h2>Trabaja fuera de casa</h2>
+<img src="images/testim-image.jpg" width="106" height="106" alt="" class="testimonial-img" />
+<p>“En casa, no tengo ningún control de mi horario y no tengo más contactos. Trabajar en un Coworking de manera flexible puede ser una manera de trabajar fuera de casa sin disparar costes.”</p>
+<p class="signature">Alfonso Balcells, XXX</p>
+
+</div>
+
+<!--End of wide "wthird" division -->
+
+<!--Start of wide "wthird" division -->
+<div class="wthird">
+
+
+<h2>Prueba el Coworking</h2>
+<img src="images/testim-image.jpg" width="106" height="106" alt="" class="testimonial-img" />
+<p>“En casa, no tengo ningún control de mi horario y no tengo más contactos. Trabajar en un Coworking de manera flexible puede ser una manera de trabajar fuera de casa sin disparar costes.”</p>
+<p class="signature">Alfonso Balcells, XXX</p>
+
+</div>
+
+<!--End of wide "wthird" division -->
+
+<!--Start of wide "wthird" division -->
+<div class="wthird">
+
+
+<h2>Te lo ponemos fácil</h2>
+<img src="images/testim-image.jpg" width="106" height="106" alt="" class="testimonial-img" />
+<p>“Ya bien sea para alquilar una sala para reunirme con mis clientes o encontrar un sitio dónde puedo trabajar cómodamente cómo Freelance, CoworkingON me lo pone fácil.”</p>
+<p class="signature">Alfonso Balcells, XXX</p>
+
+</div>
+
+<!--End of wide "wthird" division -->
+
+<div class="clr"></div>
+</div>
+
+<!--End of testimonials with three collumn layout-->
+
+<!--Start of  bonos por horas with three collumn layout-->
+
+<div class="threecolumn home-bonos">
+
+<h2 class="front"><span>BONOS POR HORAS</span></h2>
+
+<!--Start of wide "wthird" division -->
+<div class="wthird">
+
+<div class="wthird-cont">
+
+<div class="wthird-cont-image">
+<img src="images/bonos-image1.jpg" alt="workcase" width="297" height="159" />
+<div class="tag1 redtag">A partir de <span class="price">25 €</span></div>
+</div>
+<h2>La Industrial</h2>
+
+<div class="fivestar-widget"><div class="star star-1 star-odd star-first"><span class="on">5</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="off"></span></div><div class="star star-5 star-odd star-last"><span class="off"></span></div></div>
+
+<p class="understar">(1 voto)</p>
+<p>Un Espacio en el centro de Madrid, abierto y a pie de calle. Disfruta de su escuela de arte y conexión de alta velocidad <br/>
+<span class="vermas">Ver más &rarr;</span></p>
+
+ 
+<p class="last">La Industrial - Madrid, España</p>
+
+</div>
+
+</div>
+
+<!--End of wide "wthird" division -->
+
+<!--Start of wide "wthird" division -->
+<div class="wthird">
+
+<div class="wthird-cont">
+
+<div class="wthird-cont-image">
+<img src="images/bonos-image2.jpg" alt="workcase" width="297" height="159" />
+<div class="tag1 redtag">A partir de <span class="price">25 €</span></div>
+</div>
+<h2>Shed Coworking</h2>
+
+<div class="fivestar-widget"><div class="star star-1 star-odd star-first"><span class="on">5</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="off"></span></div><div class="star star-5 star-odd star-last"><span class="off"></span></div></div>
+
+<p class="understar">(1 voto)</p>
+<p>Un Espacio en el centro de Madrid, abierto y a pie de calle. Disfruta de su escuela de arte y conexión de alta velocidad <br/>
+<span class="vermas">Ver más &rarr;</span></p>
+
+ 
+<p class="last">Shed Coworking - Madrid, España</p>
+
+</div>
+
+</div>
+
+<!--End of wide "wthird" division -->
+
+<!--Start of wide "wthird" division -->
+<div class="wthird">
+
+<div class="wthird-cont">
+
+<div class="wthird-cont-image">
+<img src="images/bonos-image3.jpg" alt="workcase" width="297" height="159" />
+<div class="tag1 redtag">A partir de <span class="price">25 €</span></div>
+</div>
+<h2>Coworking Eco</h2>
+
+<div class="fivestar-widget"><div class="star star-1 star-odd star-first"><span class="on">5</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="off"></span></div><div class="star star-5 star-odd star-last"><span class="off"></span></div></div>
+
+<p class="understar">(1 voto)</p>
+<p>Un Espacio en el centro de Madrid, abierto y a pie de calle. Disfruta de su escuela de arte y conexión de alta velocidad <br/>
+<span class="vermas">Ver más &rarr;</span></p>
+
+ 
+<p class="last">Ecoworking - Madrid, España</p>
+
+</div>
+
+</div>
+
+<!--End of wide "wthird" division -->
+
+<div class="clr"></div>
+
+</div>
+
+<!--End of  bonos por horas with three collumn layout-->
+
+<!--Start of reserva de salas with three collumn layout-->
+
+<div class="threecolumn home-bonos reserva">
+
+<h2 class="front"><span>RESERVA DE SALAS</span></h2>
+
+<!--Start of wide "wthird" division -->
+<div class="wthird">
+
+<div class="wthird-cont">
+
+<div class="wthird-cont-image">
+<img src="images/bonos-image1.jpg" alt="workcase" width="297" height="159" />
+<div class="tag1 yellowtag">A partir de <span class="price">25 €</span></div>
+</div>
+<h2>La Industrial</h2>
+
+<div class="fivestar-widget"><div class="star star-1 star-odd star-first"><span class="on">5</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="off"></span></div><div class="star star-5 star-odd star-last"><span class="off"></span></div></div>
+
+<p class="understar">(1 voto)</p>
+<p>Un Espacio en el centro de Madrid, abierto y a pie de calle. Disfruta de su escuela de arte y conexión de alta velocidad <br/>
+<a href="#" class="vermas">Ver más &rarr;</a></p>
+
+ 
+<p class="last">La Industrial - Madrid, España</p>
+
+</div>
+
+</div>
+
+<!--End of wide "wthird" division -->
+
+<!--Start of wide "wthird" division -->
+<div class="wthird">
+
+<div class="wthird-cont">
+
+<div class="wthird-cont-image">
+<img src="images/bonos-image2.jpg" alt="workcase" width="297" height="159" />
+<div class="tag1 yellowtag">A partir de <span class="price">25 €</span></div>
+</div>
+<h2>Shed Coworking</h2>
+
+<div class="fivestar-widget"><div class="star star-1 star-odd star-first"><span class="on">5</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="off"></span></div><div class="star star-5 star-odd star-last"><span class="off"></span></div></div>
+
+<p class="understar">(1 voto)</p>
+<p>Un Espacio en el centro de Madrid, abierto y a pie de calle. Disfruta de su escuela de arte y conexión de alta velocidad <br/>
+<a href="#" class="vermas">Ver más &rarr;</a></p>
+
+ 
+<p class="last">Shed Coworking - Madrid, España</p>
+
+</div>
+
+</div>
+
+<!--End of wide "wthird" division -->
+
+<!--Start of wide "wthird" division -->
+<div class="wthird">
+
+<div class="wthird-cont">
+
+<div class="wthird-cont-image">
+<img src="images/bonos-image3.jpg" alt="workcase" width="297" height="159" />
+<div class="tag1 yellowtag">A partir de <span class="price">20 €/h</span></div>
+</div>
+<h2>Coworking Eco</h2>
+
+<div class="fivestar-widget"><div class="star star-1 star-odd star-first"><span class="on">5</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="off"></span></div><div class="star star-5 star-odd star-last"><span class="off"></span></div></div>
+
+<p class="understar">(1 voto)</p>
+<p>Un Espacio en el centro de Madrid, abierto y a pie de calle. Disfruta de su escuela de arte y conexión de alta velocidad <br/>
+<a href="#" class="vermas">Ver más &rarr;</a></p>
+
+ 
+<p class="last">Ecoworking - Madrid, España</p>
+
+</div>
+
+</div>
+
+<!--End of wide "wthird" division -->
+
+<div class="clr"></div>
+
+</div>
+
+<!--End of  reserva de salas with three collumn layout-->
+
+<!--Start of ofertas especiales with two collumn layout-->
+
+<div class="twocolumn">
+
+<h2 class="front"><span>OFERTAS ESPECIALES</span></h2>
+
+<!--Start of first half  division -->
+<div class="half half1">
+<img src="images/oferta-img1.jpg" width="465" height="201" alt="" />
+</div>
+<!--End of first half division -->
+
+<!--Start of second half  division -->
+<div class="half half2">
+<img src="images/oferta-img2.jpg" width="465" height="201" alt="" />
+</div>
+<!--End of second half division -->
+
+<div class="clr"></div>
+
+</div>
+
+<!--End of ofertas espciales with two collumn layout-->
+
+<!--Start of  blognews with three collumn layout -->
+<div class="threecolumn blognews">
+
+<!--Start of wide "wthird" division -->
+<div class="wthird">
+
+<div class="blognew">
+<h2 class="supertitle">En nuestro blog</h2>
+
+<h4>Post 1</h4>
+<p>Parrafo Lorem Ipsum Parrafo Lorem IpsumParrafo Lorem IpsumParrafo Lorem IpsumParrafo Lorem Ipsum</p>
+
+<h4>Post 2</h4>
+<p>Parrafo Lorem Ipsum Parrafo Lorem IpsumParrafo Lorem IpsumParrafo Lorem IpsumParrafo Lorem Ipsum</p>
+</div>
+
+</div>
+
+<!--End of wide "wthird" division -->
+
+<!--Start of wide "wthird" division -->
+<div class="wthird">
+
+<div class="blognew">
+<h2 class="supertitle">Cómo funciona</h2>
+<h4>Post 1</h4>
+<p>Parrafo Lorem Ipsum Parrafo Lorem IpsumParrafo Lorem IpsumParrafo Lorem IpsumParrafo Lorem Ipsum</p>
+
+<h4>Post 2</h4>
+<p>Parrafo Lorem Ipsum Parrafo Lorem IpsumParrafo Lorem IpsumParrafo Lorem IpsumParrafo Lorem Ipsum</p>
+</div>
+
+</div>
+
+<!--End of wide "wthird" division -->
+
+<!--Start of wide "wthird" division -->
+<div class="wthird">
+
+<div class="blognew">
+<h2 class="supertitle">Nuestros Servicios</h2>
+<h4>Post 1</h4>
+<p>Parrafo Lorem Ipsum Parrafo Lorem IpsumParrafo Lorem IpsumParrafo Lorem IpsumParrafo Lorem Ipsum</p>
+
+<h4>Post 2</h4>
+<p>Parrafo Lorem Ipsum Parrafo Lorem IpsumParrafo Lorem IpsumParrafo Lorem IpsumParrafo Lorem Ipsum</p>
+</div>
+
+</div>
+
+<!--End of wide "wthird" division -->
+
+<div class="clr"></div>
+
+</div>
+
+<!--End of blognews with three collumn layout-->
+
+</div>
+
+<!--End of primary content-->
+
+</div>
+
+<!--End of main content -->
+
+<!--Start of footer, it is divided in 4 divisions and one bottom bar -->
+
+<div class="footer">
+<div class="inner">
+
+<!--Start of one fourth division of footer -->
+
+<div class="fourth">
+<h4>Contacta con nosotros</h4>
+<ul class="nobullet">
+<li>Tlf&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;(34) 91 192 37 14</li>
+<li>Email&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;<a class="blue" href="mailto:info@coworkingon.com">info@coworkingon.com</a></li>
+<li>Add&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;Calle Faraday, 7 28049 Madrid</li>
+</ul>   	
+</div>
+
+<!--End of one fourth division of footer -->
+
+<!--Start of one fourth division of footer -->
+
+<div class="fourth">
+<h4>Ayuda</h4>
+<ul>
+<li><a href="http://coworkingon.uservoice.com/">Preguntas frecuentes</a></li>
+<li><a href="/condiciones-uso-coworkingon">Condiciones de uso</a></li>
+<li><a href="/aviso-legal">Aviso legal</a></li>
+<li><a href="/uso-cookies">Uso de cookies</a></li> 
+</ul>   	
+</div>
+
+<!--End of one fourth division of footer -->
+
+<!--Start of one fourth division of footer -->
+
+<div class="fourth">
+<h4>Información</h4>
+<ul>
+<li><a href="/como-funciona">Que es CoworkingON</a></li>
+<li><a href="/quienes-somos">Quienes somos</a></li>
+<li><a href="/mapa-sitio">Site map</a></li> 
+</ul>  	
+</div>
+
+<!--End of one fourth division of footer -->
+
+<!--Start of one fourth division of footer -->
+
+<div class="fourth">
+<h4>Nos apoyan</h4>
+<img src="images/topseedslab_logo.jpg" alt="top seed lab" width="111" height="65" />
+<img src="images/madrid-emprende_logo.jpg" alt="madridemprende" width="111" height="65" />
+</div>
+
+<!--End of one fourth division of footer -->
+
+<div class="clr"></div>
+</div>
+
+<!--Start of bottom bar of footer -->
+
+<div class="bottom">
+
+<div class="inner">
+<p>Copyright © 2013. Todos los derechos reservados <a href="/beta/">CoworkingON</a></p>
+
+<div class="social-links">
+<a href="#" title="RSS" rel="nofollow" target="_blank" class="rss"></a> 
+<a href="http://twitter.com/share?url=http%3A//tinyurl.com/o77w7kj&amp;text=" title="Share this on Twitter" rel="nofollow" target="_blank" class="twitter"></a> 
+<a href="http://www.facebook.com/sharer.php?u=http%3A//www.coworkingon.com/es%3FCoworkingon%2520International%2520S.L.%3D&amp;t=" title="Share on Facebook" rel="nofollow" target="_blank" class="fb"></a> 
+
+</div>
+
+<div class="clr"></div>
+
+</div>
+
+</div>
+
+<!--End of bottom bar of footer -->
+
+</div>
+
+<!--End of footer -->
