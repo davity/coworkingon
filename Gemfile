@@ -57,3 +57,7 @@ end
     # gem "capybara"
     gem "guard-rspec"
   end
+
+  # Devise
+  gem 'devise'
+  
