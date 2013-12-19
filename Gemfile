@@ -43,3 +43,7 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# Stuff para css/javascript
+  gem 'therubyracer'
+  gem 'execjs'
